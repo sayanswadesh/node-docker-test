@@ -2,3 +2,4 @@
 - Docker file run command => docker run --name=node-docker-test-c1 node-docker-test
 - Docker file run in local machin command => docker run --name node-docker-test-c2 -p 4000:4000 -d node-docker-test
 - Docker stop run command => docker stop node-docker-test-c1
+- Docker run without build =>docker run --name node-docker-test-c1 -p 4000:4000 --rm -v /home/sayan/Documents/nodeJS/node-docker-test:/app -v /app/node_modules node-docker-test:latest
